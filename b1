@@ -1,0 +1,20 @@
+def triangle(b,h):
+    area=.5*(b*h)
+    print("area of triangle is  ",area)
+def rectangle(l,b):
+    area=l*b
+    print("area of rectangle is  ",area)
+def circle(r):
+    area=3.14*r*r
+    print("area of circle is  ",area)
+
+b=int(input("enter length of the base of triangle:"))
+h=int(input("enter hight of triangle:"))
+triangle(b,h)
+
+l=int(input("enter length of rectangle:"))
+b=int(input("enter bredth of rectangle:"))
+rectangle(l,b)
+
+r=int(input("enter radius of circle:"))
+circle(r)
